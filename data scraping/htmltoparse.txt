@@ -1,0 +1,904 @@
+<html lang="es" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#" class="js"><head>
+	<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="Generator" content="Drupal 7 (http://drupal.org)">
+<link rel="shortcut icon" href="https://www.hipodromodelazarzuela.es/sites/all/themes/hz16/favicon.ico" type="image/vnd.microsoft.icon">
+	<title>Resultados de carrera | Hipódromo de la Zarzuela</title>
+	<style>
+@import url("https://www.hipodromodelazarzuela.es/modules/system/system.base.css?qhqd0l");
+</style>
+<style>
+@import url("https://www.hipodromodelazarzuela.es/sites/all/modules/availability_calendars/availability_calendar.base.css?qhqd0l");
+@import url("https://www.hipodromodelazarzuela.es/sites/default/files/availability_calendar/availability_calendar.css?qhqd0l");
+@import url("https://www.hipodromodelazarzuela.es/sites/all/modules/date/date_api/date.css?qhqd0l");
+@import url("https://www.hipodromodelazarzuela.es/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?qhqd0l");
+@import url("https://www.hipodromodelazarzuela.es/modules/field/theme/field.css?qhqd0l");
+@import url("https://www.hipodromodelazarzuela.es/modules/node/node.css?qhqd0l");
+@import url("https://www.hipodromodelazarzuela.es/sites/all/modules/views/css/views.css?qhqd0l");
+</style>
+<style>
+@import url("https://www.hipodromodelazarzuela.es/sites/all/modules/ctools/css/ctools.css?qhqd0l");
+</style>
+<link type="text/css" rel="stylesheet" href="//cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css" media="all">
+<style>
+@import url("https://www.hipodromodelazarzuela.es/sites/all/modules/_a_hz_modulo/hz_facturas/css/hz_facturas.css?qhqd0l");
+@import url("https://www.hipodromodelazarzuela.es/sites/all/modules/_a_hz_modulo/hz_intranet/css/hz_intranet.css?qhqd0l");
+@import url("https://www.hipodromodelazarzuela.es/sites/all/modules/ctools/css/modal.css?qhqd0l");
+@import url("https://www.hipodromodelazarzuela.es/sites/all/modules/modal_forms/css/modal_forms_popup.css?qhqd0l");
+@import url("https://www.hipodromodelazarzuela.es/sites/all/modules/_a_hz_modulo_master/bootstrap/css/select2.min.css?qhqd0l");
+</style>
+<style>#sliding-popup.sliding-popup-bottom{background:#000000;}#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text p{color:#ffffff !important;}
+</style>
+<style>
+@import url("https://www.hipodromodelazarzuela.es/sites/all/modules/eu_cookie_compliance/css/eu_cookie_compliance.css?qhqd0l");
+</style>
+<link type="text/css" rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.css" media="all">
+<style>
+@import url("https://www.hipodromodelazarzuela.es/sites/all/themes/hz16/css/style.css?qhqd0l");
+@import url("https://www.hipodromodelazarzuela.es/sites/all/themes/hz16/css/animate.css?qhqd0l");
+@import url("https://www.hipodromodelazarzuela.es/sites/all/themes/hz16/css/hz_megamenu.css?qhqd0l");
+</style>
+	<link href="/sites/all/themes/hz16/lib/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Roboto:400,300,500,700" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic,300italic,300" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet">
+	<!-- HTML5 element support for IE6-8 -->
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script type="text/javascript" src="https://track.adform.net/Serving/TrackPoint/?pm=552106&amp;ADFPageName=www.hipodromodelazarzuela.es%2Fcarreras%2Fcarrera%2F0000046213%2F20201002&amp;ADFdivider=%2F&amp;ord=972596921940&amp;Set1=es%7Ces%7C1280x720%7C24&amp;CPref=https%3A%2F%2Fwww.hipodromodelazarzuela.es%2Fcarreras%2Fcarrera%2F0000046214%2F20201002&amp;ADFtpmode=2&amp;loc=https%3A%2F%2Fwww.hipodromodelazarzuela.es%2Fcarreras%2Fcarrera%2F0000046213%2F20201002"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script><script type="text/javascript" async="" src="https://track.adform.net/serving/scripts/trackpoint/async/"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script src="https://www.hipodromodelazarzuela.es/sites/all/modules/jquery_update/replace/jquery/2.1/jquery.min.js?v=2.1.4"></script>
+<script src="https://www.hipodromodelazarzuela.es/misc/jquery-extend-3.4.0.js?v=2.1.4"></script>
+<script src="https://www.hipodromodelazarzuela.es/misc/jquery-html-prefilter-3.5.0-backport.js?v=2.1.4"></script>
+<script src="https://www.hipodromodelazarzuela.es/misc/jquery.once.js?v=1.2"></script>
+<script src="https://www.hipodromodelazarzuela.es/misc/drupal.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/jquery_update/replace/jquery.form/3/jquery.form.min.js?v=3.51.0"></script>
+<script src="https://www.hipodromodelazarzuela.es/misc/ajax.js?v=7.72"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.js"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/default/files/languages/es_pnHKRjXuSA-ECvu3CH1tI6OlY1xZ7yFGFfY_tuu-JAA.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/_a_hz_modulo/hz_facturas/js/hz_facturas.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/themes/bootstrap/js/misc/_progress.js?v=7.72"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/ctools/js/modal.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/modal_forms/js/modal_forms_popup.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/google_analytics/googleanalytics.js?qhqd0l"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-21295118-1", {"cookieDomain":"auto"});ga("require", "linkid", "linkid.js");ga("set", "anonymizeIp", true);ga("set", "page", location.pathname + location.search + location.hash);ga("send", "pageview");</script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/themes/hz16/lib/readmore/readmore.min.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/themes/hz16/js/script.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/themes/bootstrap/js/modules/ctools/js/modal.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/themes/bootstrap/js/misc/ajax.js?qhqd0l"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"hz16","theme_token":"jSoVQfEQRX1JVumGvkqbLMOFOpby-wvamp-wUKfTDD0","jquery_version":"2.1","js":{"sites\/all\/modules\/_a_hz_modulo\/hz_dw_ges\/js\/select2.min.js":1,"sites\/all\/modules\/_a_hz_modulo\/hz_dw_ges\/js\/jquery.mask.js":1,"sites\/all\/modules\/_a_hz_modulo\/hz_dw_ges\/js\/euro_sis_custom.js":1,"sites\/all\/modules\/_a_hz_eurosis_formularios\/js\/select2.min1.js":1,"sites\/all\/modules\/_a_hz_eurosis_formularios\/js\/jquery.mask.js":1,"sites\/all\/modules\/_a_hz_eurosis_formularios\/js\/jquery.dataTables.min.js":1,"sites\/all\/modules\/_a_hz_eurosis_formularios\/js\/euro_sis_custom1.js":1,"sites\/all\/modules\/_a_hz_modulo_master\/bootstrap\/js\/select2.min.js":1,"sites\/all\/modules\/_a_hz_modulo_master\/js\/hz_modulo_master.js":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/2.1\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery.form\/3\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.7\/js\/bootstrap.js":1,"public:\/\/languages\/es_pnHKRjXuSA-ECvu3CH1tI6OlY1xZ7yFGFfY_tuu-JAA.js":1,"sites\/all\/modules\/_a_hz_modulo\/hz_facturas\/js\/hz_facturas.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/modules\/ctools\/js\/modal.js":1,"sites\/all\/modules\/modal_forms\/js\/modal_forms_popup.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/hz16\/lib\/readmore\/readmore.min.js":1,"sites\/all\/themes\/hz16\/js\/script.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/ctools\/js\/modal.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/availability_calendars\/availability_calendar.base.css":1,"public:\/\/availability_calendar\/availability_calendar.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"\/\/cdn.datatables.net\/1.10.20\/css\/jquery.dataTables.min.css":1,"sites\/all\/modules\/_a_hz_modulo\/hz_facturas\/css\/hz_facturas.css":1,"sites\/all\/modules\/_a_hz_modulo\/hz_intranet\/css\/hz_intranet.css":1,"sites\/all\/modules\/ctools\/css\/modal.css":1,"sites\/all\/modules\/modal_forms\/css\/modal_forms_popup.css":1,"sites\/all\/modules\/_a_hz_modulo_master\/bootstrap\/css\/select2.min.css":1,"0":1,"sites\/all\/modules\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.3.7\/css\/bootstrap.css":1,"sites\/all\/themes\/hz16\/css\/style.css":1,"sites\/all\/themes\/hz16\/css\/animate.css":1,"sites\/all\/themes\/hz16\/css\/hz_megamenu.css":1}},"CToolsModal":{"loadingText":"Loading...","closeText":"Close Window","closeImage":"\u003Cimg typeof=\u0022foaf:Image\u0022 class=\u0022img-responsive\u0022 src=\u0022https:\/\/www.hipodromodelazarzuela.es\/sites\/all\/modules\/ctools\/images\/icon-close-window.png\u0022 alt=\u0022Close window\u0022 title=\u0022Close window\u0022 \/\u003E","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 class=\u0022img-responsive\u0022 src=\u0022https:\/\/www.hipodromodelazarzuela.es\/sites\/all\/modules\/ctools\/images\/throbber.gif\u0022 alt=\u0022Cargando\u0022 title=\u0022Loading...\u0022 \/\u003E"},"modal-popup-small":{"modalSize":{"type":"fixed","width":300,"height":300},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 class=\u0022img-responsive\u0022 src=\u0022https:\/\/www.hipodromodelazarzuela.es\/sites\/all\/modules\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Cargando\u0022 \/\u003E","closeText":"Close"},"modal-popup-medium":{"modalSize":{"type":"fixed","width":550,"height":450},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 class=\u0022img-responsive\u0022 src=\u0022https:\/\/www.hipodromodelazarzuela.es\/sites\/all\/modules\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Cargando\u0022 \/\u003E","closeText":"Close"},"modal-popup-large":{"modalSize":{"type":"scale","width":0.8,"height":0.8},"modalOptions":{"opacity":0.85,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 class=\u0022img-responsive\u0022 src=\u0022https:\/\/www.hipodromodelazarzuela.es\/sites\/all\/modules\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022Loading...\u0022 title=\u0022Cargando\u0022 \/\u003E","closeText":"Close"},"eu_cookie_compliance":{"popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":0,"popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EUtilizamos cookies propias y de terceros para realizar el an\u00e1lisis de la navegaci\u00f3n y mejorar nuestro servicio. Si contin\u00faa navegando, consideramos que acepta su uso. Puede obtener m\u00e1s informaci\u00f3n, o bien conocer c\u00f3mo cambiar la configuraci\u00f3n, pulsando en. \u003Ca href=\u0022https:\/\/www.hipodromodelazarzuela.es\/sites\/default\/files\/resources\/politica_de_cookies_HZ.pdf\u0022 target=\u0022_blank\u0022\u003E M\u00e1s informaci\u00f3n\u003C\/a\u003E\u003C\/p\u003E    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button btn btn-default\u0022\u003EAceptar Cookies\u003C\/button\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button btn btn-default\u0022\u003EModificar configuraci\u00f3n\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThank you for accepting cookies\u003C\/h2\u003E\n\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button\u0022\u003EOcultar\u003C\/button\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button\u0022 \u003EMore info\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/politica-de-cookies","popup_link_new_window":1,"popup_position":null,"popup_language":"es","domain":""},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackUrlFragments":1},"admin_menu":{"suppress":1},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+	<!-- Mediacore Solutions Tracking Code BEGIN -->
+	<script type="text/javascript">
+	var adfPagename = (location.hostname + location.pathname).split('.aspx')[0];
+	if (adfPagename.indexOf("blog") > -1) {
+		adfPagename = (location.hostname + "/Blog Post");
+	}
+	var _adftrack = {
+		pm: 552106,
+		divider: encodeURIComponent('/'),
+		pagename: encodeURIComponent(adfPagename)        
+	};
+	(function () { var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://track.adform.net/serving/scripts/trackpoint/async/'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();
+	</script>
+	<noscript>
+		<p style="margin:0;padding:0;border:0;">
+			<img src="https://track.adform.net/Serving/TrackPoint/?pm=552106&ADFPageName=noScript&ADFdivider=|" width="1" height="1" alt="" />
+		</p>
+	</noscript>
+	<!-- Mediacore Tracking Code END -->
+</head>
+<body role="document" class="html not-front not-logged-in no-sidebars page-carreras page-carreras-carrera page-carreras-carrera- page-carreras-carrera-0000046213 page-carreras-carrera- page-carreras-carrera-20201002 navbar-is-fixed-top sliding-popup-processed"><div id="StayFocusd-infobar" style="display: none; top: 34.8148px;">
+    <img src="chrome-extension://laankejkbhbdhmipfmgcngdelahlfoji/common/img/eye_19x19_red.png">
+    <span id="StayFocusd-infobar-msg"></span>
+    <span id="StayFocusd-infobar-links">
+        <a id="StayFocusd-infobar-never-show">ocultar siempre</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a id="StayFocusd-infobar-hide">ocultar ahora</a>
+    </span>
+</div>
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Pasar al contenido principal</a>
+  </div>
+    
+<header id="navbar" role="banner" class="navbar navbar-fixed-top navbar-default yamm">
+  <div class="container">
+  <div class="row">
+    <div class="navbar-header">
+              <a class="logo navbar-btn pull-left" href="/" title="Inicio">
+						<img src="https://www.hipodromodelazarzuela.es/sites/all/themes/hz16/logo_17.png" alt="Inicio">
+						
+        </a>
+      
+      
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          </div>
+
+    
+	<div id="navbar-collapse-grid" class="navbar-collapse collapse">
+			
+					<ul class="nav navbar-nav">
+  
+  <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false">Visita el Hipódromo <i class="fa fa-angle-down visible-xs visible-sm" aria-hidden="true"></i></a>
+	<ul class="dropdown-menu">
+	  <li class="yamm-content">
+			<div class="row">
+				
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-visita-hipodromo-proxima-cita.jpg">
+						</div>
+						<div class="col-xs-12 col-md-6 no-padding-left">
+							<h5><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela"><span>Próxima Cita</span></a></h5>
+							<ul>
+							<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela">Las carreras de la jornada</a></li>
+							    <li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#ocio">Medidas de Seguridad Sanitaria</a></li>
+							    <li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#gastro">Espacio Gastro</a></li>
+							    <li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#hz-premium">Terraza HZ Premium</a></li>
+							    <li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#kids">Club PonyTurf</a></li>
+							
+							</ul>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-visita-hipodromo-planifica-visita.jpg">
+						</div>
+						
+						<div class="col-xs-12 col-md-6 no-padding-left">
+							<h5><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#planifica-tu-visita"><span>Planifica tu visita</span></a></h5>
+							<ul>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#planifica-tu-visita">Cómo ver una carrera</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#apostar">Apostar en las carreras</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#museo-torroja">Museo Eduardo Torroja</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#visita-hipotour"><span>Visita guiada Hipotour</span></a>
+							</li></ul>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="col-xs-12 col-md-4">
+					
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-visita-hipodromo-como-llegar.jpg">
+						</div>
+						
+						<div class="col-xs-12 col-md-6 no-padding-left">
+								<h5><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#como-llegar"><span>Cómo llegar</span></a></h5>
+							<ul>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#como-llegar">Cómo llegar</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#servicios">Servicios</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#mapa-del-recinto">Mapa del recinto</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-visita-hipodromo-calendario.jpg">
+						</div>
+						<div class="col-xs-12 col-md-6 no-padding-left">
+						<h5><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#calendario"><span>Calendario</span></a></h5>
+							<ul>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#calendario">Temporada de Primavera</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#calendario">Temporada de Verano</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#calendario">Temporada de Otoño</a></li>
+							</ul>
+
+
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="col-xs-12 col-md-4">
+					
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-visita-hipodromo-grandes-citas.jpg">
+						</div>
+						
+						<div class="col-xs-12 col-md-6 no-padding-left">
+							<h5><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#grandes-citas"><span>Las grandes citas del año</span></a></h5>
+							<ul>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#grandes-citas">Gran Premio de Madrid / 28 junio</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela#grandes-citas">Día de los Campeones / 18 octubre</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-visita-hipodromo-entradas.jpg">
+						</div>
+						
+						<div class="col-xs-12 col-md-6 no-padding-left">
+							<h5><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela-entradas"><span>Entradas</span></a></h5>
+							<ul>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela-entradas#tipos-entrada">Tipos de entrada</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/visita-la-zarzuela-entradas#tipos-abono">Abonos de Temporada</a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+	  </li>
+	</ul>
+  </li>
+  
+  <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false">Carreras y Apuestas <i class="fa fa-angle-down visible-xs visible-sm" aria-hidden="true"></i></a>
+	<ul class="dropdown-menu">
+	  <li class="yamm-content">
+			<div class="row">
+				
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-carreras-apuestas-carreras.jpg">
+						</div>
+						
+						<div class="col-xs-12 col-md-6 no-padding-left">
+							<h5><a href="http://www.hipodromodelazarzuela.es/carreras"><span>Carreras</span></a></h5>
+							<ul>
+								<li><a href="http://www.hipodromodelazarzuela.es/carreras#proximas-carreras">Próximas carreras</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/carreras#calendario-resultados">Calendario y resultados</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/carreras#programa-oficial">Programa oficial de la temporada</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/carreras#biblioteca-mar">Biblioteca Miguel Ángel Ribera</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-carreras-apuestas-apuestas.jpg">
+						</div>
+						
+						<div class="col-xs-12 col-md-6 no-padding-left">
+							<h5><a href="http://www.hipodromodelazarzuela.es/apuestas"><span>Apuestas</span></a></h5>
+							<ul>
+								<li><a href="http://www.hipodromodelazarzuela.es/apuestas#tipos">Tipos de apuestas</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/apuestas#preparar-apuesta">Cómo preparar tu apuesta</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/apuestas#realizar-apuesta">Cómo realizar tu apuesta</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/apuestas#cobrar-apuesta">Cómo cobrar tu apuesta ganadora</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-carreras-apuestas-hall-fame.jpg">
+						</div>
+						
+						<div class="col-xs-12 col-md-6 no-padding-left">
+							<h5><a href="http://www.hipodromodelazarzuela.es/hall-fame"><span>GRANDES PREMIOS</span></a></h5>
+							<ul>
+								<li><a href="http://www.hipodromodelazarzuela.es/grandes-premios#grandes-premios-primavera">Primavera</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/grandes-premios#grandes-premios-otono">Otoño</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/grandes-premios#gran-premio-madrid">Gran Premio de Madrid</a></li>								
+								<li><a href="http://www.hipodromodelazarzuela.es/grandes-premios#palmares-grandes-premios">Palmarés de los G.P.</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/grandes-premios#campeones-españa">Campeones de España</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/grandes-premios#los-mejores">Los mejores de la historia</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/grandes-premios#premio-pablo-font">Premio Pablo Font</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+	  </li>
+	</ul>
+  </li>
+  
+  <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false">Eventos y Marcas <i class="fa fa-angle-down visible-xs visible-sm" aria-hidden="true"></i></a>
+	<ul class="dropdown-menu">
+	  <li class="yamm-content">
+			<div class="row">
+				
+				<div class="col-xs-12 col-md-3">
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-eventos-nuestros-espacios.jpg">
+						</div>
+						
+						<div class="col-xs-12 col-md-6 no-padding-left">
+							<h5><a href="http://www.hipodromodelazarzuela.es/eventos-y-marcas#espacios"><span>Nuestros Espacios</span></a></h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-md-3">
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-eventos-empresa.jpg">
+						</div>
+						
+						<div class="col-xs-12 col-md-6 no-padding-left">
+							<h5><a href="http://www.hipodromodelazarzuela.es/eventos-y-marcas#empresa"><span>Eventos de empresa</span></a></h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-md-3">
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-eventos-privados.jpg">
+						</div>
+						
+						<div class="col-xs-12 col-md-6 no-padding-left">
+							<h5><a href="http://www.hipodromodelazarzuela.es/eventos-y-marcas#privados"><span>Eventos privados</span></a></h5>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-md-3">
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-eventos-patrocinio.jpg">
+						</div>
+						
+						<div class="col-xs-12 col-md-6 no-padding-left">
+							<h5><a href="http://www.hipodromodelazarzuela.es/eventos-y-marcas#patrocinios"><span>Patrocinios</span></a></h5>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+	  </li>
+	</ul>
+  </li>
+  
+  <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false">Empresa <i class="fa fa-angle-down visible-xs visible-sm" aria-hidden="true"></i></a>
+	<ul class="dropdown-menu">
+	  <li class="yamm-content">
+			<div class="row">
+				
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						
+								<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+									<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-empresa-bienvenida.jpg">
+								</div>
+								
+								<div class="col-xs-12 col-md-6 no-padding-left">
+									<h5><a href="http://www.hipodromodelazarzuela.es/bienvenidos-e-historia"><span>Bienvenidos</span></a></h5>
+									<ul>
+								<li><a href="http://www.hipodromodelazarzuela.es/bienvenidos-e-historia#saludo-del-presidente">Saludo del presidente</a></li>
+								</ul>
+								</div>
+							
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						
+								<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+									<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-empresa-nuestra-historia.jpg">
+								</div>
+								
+								<div class="col-xs-12 col-md-6 no-padding-left">
+									<h5><a href="http://www.hipodromodelazarzuela.es/bienvenidos-e-historia#el-hipodromo"><span>Nuestra Historia</span></a></h5>
+									<ul>
+										<li><a href="http://www.hipodromodelazarzuela.es/bienvenidos-e-historia#el-hipodromo">Historia del Hipódromo de La Zarzuela</a></li>
+										<li><a href="http://www.hipodromodelazarzuela.es/bienvenidos-e-historia#el-monumento">Historia del Monumento</a></li>
+									</ul>
+								</div>
+							
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-empresa-info-corporativa.jpg">
+						</div>
+						
+						<div class="col-xs-12 col-md-6 no-padding-left">
+							<h5><a href="http://www.hipodromodelazarzuela.es/información-corporativa"><span>Información Corporativa</span></a></h5>
+							<ul>
+								<li><a href="http://www.hipodromodelazarzuela.es/información-corporativa#perfil-del-contratante">Perfil del Contratante</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/información-corporativa#gobierno-corporativo">Gobierno Corporativo</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/información-corporativa#portal-de-la-transparencia">Portal de la Transparencia</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/información-corporativa#canal-etico">Canal Ético</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/información-corporativa#agenda-20-30">Agenda 2030</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>						
+			</div>
+	  </li>
+	</ul>
+  </li>
+
+   <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-expanded="false">Espacio Profesional <i class="fa fa-angle-down visible-xs visible-sm" aria-hidden="true"></i></a>
+	<ul class="dropdown-menu">
+	  <li class="yamm-content">
+			<div class="row">
+				
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						
+								<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+									<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-espacio-profesional.jpg">
+								</div>
+								
+								<div class="col-xs-12 col-md-6 no-padding-left">
+									<h5><a href="http://www.hipodromodelazarzuela.es/espacio-profesional"><span>Espacio Profesional</span></a></h5>
+									<ul>
+										<li><a href="http://www.hipodromodelazarzuela.es/espacio-profesional">Entrada Espacio profesional</a></li>
+										<li><a href="http://www.hipodromodelazarzuela.es/alta-profesionales-en-la-web">Alta de profesionales en la web</a></li>
+										<li><a href="http://www.hipodromodelazarzuela.es/alta-profesionales-en-la-web#ep-administracion">Administración</a></li>
+									</ul>
+								</div>
+
+							
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						
+								<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+									<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-centro-de-entrenamiento.jpg">
+								</div>
+								
+								<div class="col-xs-12 col-md-6 no-padding-left">
+									<h5><a href="http://www.hipodromodelazarzuela.es/centro-de-entrenamiento"><span>Centro de Entrenamiento</span></a></h5>
+									<ul>
+										<li><a href="http://www.hipodromodelazarzuela.es/centro-de-entrenamiento">Descripción y Servicios</a></li>
+										<li><a href="http://www.hipodromodelazarzuela.es/centro-de-entrenamiento#reglamento-interno">Reglamento de Régimen Interior</a></li>
+										<li><a href="http://www.hipodromodelazarzuela.es/centro-de-entrenamiento#reglamento-interno">Anexos</a></li>
+										<li><a href="http://www.hipodromodelazarzuela.es/centro-de-entrenamiento#reglamento-interno">Circulares</a></li>
+										<li><a href="http://www.hipodromodelazarzuela.es/centro-de-entrenamiento#reglamento-interno">Normativa Sanitaria y de Transporte</a></li>
+										<li><a href="http://www.hipodromodelazarzuela.es/centro-de-entrenamiento#reglamento-interno">Información de Servicio</a></li>
+									</ul>
+								</div>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-md-4">
+					<div class="row">
+						<div class="col-xs-12 col-md-6 hidden-xs hidden-sm">
+							<img class="img-responsive" src="/sites/all/themes/hz16/images/mm-sala-de-prensa.jpg">
+						</div>
+						
+						<div class="col-xs-12 col-md-6 no-padding-left">
+							<h5><a href="http://www.hipodromodelazarzuela.es/noticias-destacadas"><span>Sala de Prensa</span></a></h5>
+							<ul>
+								<li><a href="http://www.hipodromodelazarzuela.es/normativa-temporada-2020-acreditaciones-de-prensa">Acreditaciones prensa 2020</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/noticias-destacadas">Noticias destacadas</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/noticias">Información del Sector</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/carreras#calendario-resultados">Próximas Carreras</a></li>
+								<li><a href="http://www.hipodromodelazarzuela.es/newsletter">Newsletter</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>						
+			</div>
+	  </li>
+	</ul>
+  </li>
+  
+  <li class="visible-xs visible-sm"><a href="http://hzarzuela.arteyocio.com/" target="_BLANK" class="text-left" style="color:#fff; background: #0099b5; ">COMPRAR ENTRADAS <i class="fa fa-angle-right visible-xs visible-sm" aria-hidden="true"></i></a></li>
+  
+  <li class="visible-xs visible-sm"><a href="/espacio-profesional" target="_BLANK" class="text-left" style="color:#fff; background: #CECECE; ">ESPACIO PROFESIONAL <i class="fa fa-angle-right visible-xs visible-sm" aria-hidden="true"></i></a></li>
+  
+</ul>
+  				
+		
+					<div class="hidden-xs hidden-sm">
+			  <div class="region region-navigation">
+    <section id="block-block-9" class="block block-block block-social-links euro_menu_botones_navegador_comprar clearfix">
+
+      
+  <div class="comprar-entradas" style="float:left;margin-right: 10px;"><a class="btn btn-primary link-comprar-entradas" href="http://hzarzuela.arteyocio.com/" style="font-size:0.8em;" target="_blank">COMPRAR ENTRADAS</a> <a class="btn " href="/espacio_profesional" style="background:#cecece;font-size:0.8em;;" target="_blank">ACCEDE A TU CUENTA</a></div>
+<div class="comprar-entradas" style="float:left">
+ <a class="btn " style="padding:0px;" href="#"><img src="/sites/default/files/logo-sepi.png"></a>
+<a class="btn " style="padding:0px;" href="#"><img src="/sites/default/files/logo-vdg.jpg"></a>
+</div>
+</section>
+  </div>
+			</div>
+				
+	</div>
+	
+  </div>
+  </div>
+</header>
+
+
+<style>
+.section-breadcrumb .container ol.breadcrumb{width: 60%!important;float: left;}
+.section-breadcrumb .container div.breadcrumb{width: 40%!important;float: right;color:#0099b5;font-weight: bold;}
+
+</style>
+<div class="section-breadcrumb"><div class="container"><ol class="breadcrumb"><li><a href="/">Inicio</a></li>
+<li class="active">Resultados de carrera</li>
+</ol><div class="breadcrumb">    </div></div></div>
+
+<div class="main-container container">
+
+  <div class="row">
+
+    
+    <section class="col-sm-12">
+            
+      <a id="main-content"></a>
+            
+                    <h1 style="padding-bottom: 15px;" class="page-header">  Resultados de carrera </h1>
+      
+        
+            
+                                                    <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  
+
+<div id="navega-carreras" class="tabs clearfix">
+	<ul class="nav nav-tabs nav-justified">
+					
+			<li class="active">
+					<a href="/carreras/carrera/0000046213/20201002" title="PREMIO  SANTIAGO GALAZ"><span class="tab">Carrera 1</span></a>
+			</li>
+					
+			<li class="">
+					<a href="/carreras/carrera/0000046212/20201002" title="PREMIO  FLORENTINO GONZÁLEZ"><span class="tab">Carrera 2</span></a>
+			</li>
+					
+			<li class="">
+					<a href="/carreras/carrera/0000046215/20201002" title="PREMIO  EDUARDO TORROJA (HÁNDICAP DIVIDIDO 2ª PARTE)"><span class="tab">Carrera 3</span></a>
+			</li>
+					
+			<li class="">
+					<a href="/carreras/carrera/0000046216/20201002" title="PREMIO DINK"><span class="tab">Carrera 4</span></a>
+			</li>
+					
+			<li class="">
+					<a href="/carreras/carrera/0000046214/20201002" title="PREMIO PAULINO GARCÍA (HÁNDICAP DIVIDIDO 1ª PARTE)"><span class="tab">Carrera 5</span></a>
+			</li>
+			</ul>
+	<!--<span class="title" style="float: right; line-height: 43px; margin-right: 10px;">Otras carreras de la jornada: </span>-->
+</div>
+
+<div class="panel panel-default">
+  
+		<div class="panel-heading"><strong>PREMIO  SANTIAGO GALAZ - Categoría D</strong></div>
+		
+	<div class="panel-body">
+			
+		<div class="info-container clearfix" style="margin-bottom:20px;">
+			<table width="100%" cellpadding="0" cellspacing="0" border="0" class="table table-bordered table-condensed display">
+				<tbody><tr>
+					<td>Viernes, 2 de Octubre de 2020</td>
+					<td><strong>Hora: </strong>15:30</td>
+					<td><strong>Terreno: </strong>H - Bueno</td>
+					<td><strong>Distancia: </strong>2.100 m</td>
+										<td><strong>Tipo: </strong>Liso</td>
+										<td><strong>Tiempo: </strong>2'16"15</td>
+				</tr>
+			</tbody></table>
+		</div>
+			
+		<div class="info-container hz-table datatable clearfix" style="margin-top:0px;">
+			
+				<table width="100%" cellpadding="0" cellspacing="0" border="0" class="table table-bordered table-condensed display" id="datatable">
+					<thead>
+						<tr>
+							<th title="Puesto" class="left">Puesto</th>
+							<th title="Caballo" class="left" style="text-align:left;">Caballo</th>
+							<th title="Peso">Peso</th>
+							<th title="Edad">Edad</th>
+							<th title="Distancia">Dist.</th>
+							<th title="Mantilla">Mant.</th>
+							<th title="Dividendo">Divid.</th>
+							<th title="Propietario" class="left">Propietario</th>
+							<th title="Preparador" class="left">Preparador</th>
+							<th title="Jinete" class="left">Jinete</th>
+						</tr>
+					</thead>
+					<tbody>
+																				<tr>
+								<td class="left">01</td>
+								<td class="left nowrap" nowrap="nowrap" align="left" style="text-align:left;">SIR ROQUE (FR) (a)</td>
+								<td>56,00-54,50</td>
+								<td>4</td>
+								<td></td>
+								<td>02</td>
+								<td>1,90</td>
+								<td class="left nowrap" nowrap="nowrap"><span title="YEGUADA AGF">YEGUADA AGF</span></td>
+								<td class="left nowrap" nowrap="nowrap"><span title="G.ARIZKORRETA">G.ARIZKORRETA</span></td>
+								<td class="left nowrap" nowrap="nowrap"><span title="E. ARGUINZONES">E. ARGUINZONES</span></td>
+							</tr>
+														<tr>
+								<td class="left">02</td>
+								<td class="left nowrap" nowrap="nowrap" align="left" style="text-align:left;">PELLIQUERO (FR)</td>
+								<td>61,00</td>
+								<td>3</td>
+								<td>1 C 1/2</td>
+								<td>01</td>
+								<td>3,70</td>
+								<td class="left nowrap" nowrap="nowrap"><span title="CIELO DE MADRID">CIELO DE MADRID</span></td>
+								<td class="left nowrap" nowrap="nowrap"><span title="J.A.RODRIGUEZ">J.A.RODRIGUEZ</span></td>
+								<td class="left nowrap" nowrap="nowrap"><span title="J.L. BORREGO">J.L. BORREGO</span></td>
+							</tr>
+														<tr>
+								<td class="left">03</td>
+								<td class="left nowrap" nowrap="nowrap" align="left" style="text-align:left;">HEADHUNTER (FR)</td>
+								<td>54,00-50,00</td>
+								<td>3</td>
+								<td>6 C 3/4</td>
+								<td>04</td>
+								<td>2,90</td>
+								<td class="left nowrap" nowrap="nowrap"><span title="PALCO 7">PALCO 7</span></td>
+								<td class="left nowrap" nowrap="nowrap"><span title="J.L.MAROTO">J.L.MAROTO</span></td>
+								<td class="left nowrap" nowrap="nowrap"><span title="A.MARTINEZ">A.MARTINEZ</span></td>
+							</tr>
+														<tr>
+								<td class="left">04</td>
+								<td class="left nowrap" nowrap="nowrap" align="left" style="text-align:left;">MARAVEDI (IRE)</td>
+								<td>54,00-54,50</td>
+								<td>3</td>
+								<td>20 C</td>
+								<td>05</td>
+								<td>14,70</td>
+								<td class="left nowrap" nowrap="nowrap"><span title="ODISEA">ODISEA</span></td>
+								<td class="left nowrap" nowrap="nowrap"><span title="A.CARRASCO">A.CARRASCO</span></td>
+								<td class="left nowrap" nowrap="nowrap"><span title="R. RAMOS">R. RAMOS</span></td>
+							</tr>
+														<tr>
+								<td class="left">05</td>
+								<td class="left nowrap" nowrap="nowrap" align="left" style="text-align:left;">GACEFAR (GB)</td>
+								<td>54,50</td>
+								<td>4</td>
+								<td>27 C 1/2</td>
+								<td>03</td>
+								<td>21,40</td>
+								<td class="left nowrap" nowrap="nowrap"><span title="GANADERIA JUMAAN">GANADERIA JUMAAN</span></td>
+								<td class="left nowrap" nowrap="nowrap"><span title="FUSTE, J.">FUSTE, J.</span></td>
+								<td class="left nowrap" nowrap="nowrap"><span title="F.MARTINEZ">F.MARTINEZ</span></td>
+							</tr>
+							                            
+											</tbody>
+					
+				</table>
+				
+		</div>
+
+		</div>
+
+	<div class="panel-footer clearfix">
+
+	<div class="col-sm-6 clearfix" style="">
+		<h6>Dividendos</h6>
+					<small>
+			<ul>
+			            				<li style="text-transform: uppercase;">Ganador: 1.90</li>
+            			            				<li style="text-transform: uppercase;">Gemela no reversible: 3.20</li>
+            			            				<li style="text-transform: uppercase;">Trio en orden: 4.20</li>
+            						</ul>
+			</small>
+			</div>
+
+	<div class="col-sm-6 clearfix" style="">
+		
+		<h6>Códigos de puesto1</h6>
+		<small>
+		<ul>
+			<li>93 - DISTANCIADO POR LOS COMISARIOS</li>
+			<li>94 - DESCALIFICADO</li>
+			<li>95 - PARADO</li>
+			<li>96 - QUEDADO EN LA SALIDA</li>
+			<li>97 - RETIRADO</li>
+			<li>98 - DESMONTADO A LAS ORDENES DEL JUEZ</li>
+			<li>99 - CAIDO/DESMONTADO</li>
+		</ul>
+		</small>
+	</div>
+
+	</div>
+
+
+</div>
+
+</section>
+  </div>
+    </section>
+
+    
+  </div>
+  
+    
+  
+</div>
+
+
+<div class="section-pre-footer-1">
+    <div class="container">
+      <div class="region region-pre-footer1">
+    <section id="block-menu-menu-menu-inferior" class="block block-menu block-menu-inferior clearfix">
+
+      
+  <ul class="menu nav"><li class="first expanded"><a href="/noticias-destacadas">SALA DE PRENSA</a><ul class="menu nav"><li class="first leaf"><a href="https://www.hipodromodelazarzuela.es/normativa-temporada-2020-acreditaciones-de-prensa">Acreditaciones de prensa</a></li>
+<li class="leaf"><a href="/noticias-destacadas">Noticias</a></li>
+<li class="leaf"><a href="/noticias">Información del Sector</a></li>
+<li class="last leaf"><a href="/noticias/matriculas-y-partants">Matrículas y Partants</a></li>
+</ul></li>
+<li class="expanded"><a href="/centro-de-entrenamiento">CENTRO DE ENTRENAMIENTO</a><ul class="menu nav"><li class="first leaf"><a href="/centro-de-entrenamiento">Descripción y Servicios</a></li>
+<li class="leaf"><a href="http://www.hipodromodelazarzuela.es/centro-de-entrenamiento#reglamento-interno">Reglamento de Régimen Interior</a></li>
+<li class="leaf"><a href="http://www.hipodromodelazarzuela.es/centro-de-entrenamiento#reglamento-interno">Anexos</a></li>
+<li class="leaf"><a href="http://www.hipodromodelazarzuela.es/centro-de-entrenamiento#reglamento-interno">Circulares</a></li>
+<li class="leaf"><a href="http://www.hipodromodelazarzuela.es/centro-de-entrenamiento#reglamento-interno">Normativa Sanitaria y de Transporte</a></li>
+<li class="last leaf"><a href="http://www.hipodromodelazarzuela.es/centro-de-entrenamiento#reglamento-interno">Información de Servicio</a></li>
+</ul></li>
+<li class="expanded"><a href="/espacio-profesional">ESPACIO PROFESIONAL</a><ul class="menu nav"><li class="first leaf"><a href="/alta-profesionales-en-la-web">Alta de profesionales en la web</a></li>
+<li class="last leaf"><a href="http://www.hipodromodelazarzuela.es/alta-profesionales-en-la-web#ep-administracion">Administración</a></li>
+</ul></li>
+<li class="last expanded"><a href="#" class="nolink">OTROS</a><ul class="menu nav"><li class="first leaf"><a href="https://www.hipodromodelazarzuela.es/sites/default/files/resources/Nota normas acceso 2020 v3.pdf">Normas de acceso 2020</a></li>
+<li class="leaf"><a href="http://www.hipodromodelazarzuela.es/sites/default/files/resources/derecho_admision.pdf">Derecho de admisión</a></li>
+<li class="leaf"><a href="/politica-de-venta-de-entradas-online">Politica de venta de entradas online</a></li>
+<li class="last leaf"><a href="https://hipodromodelazarzuela-canaletico.appcore.es/" target="_blank">Canal ético</a></li>
+</ul></li>
+</ul>
+</section>
+  </div>
+    </div>
+</div>
+
+<div class="section-pre-footer-2">
+    <div class="container">
+      <div class="region region-pre-footer2">
+    <section id="block-block-7" class="block block-block block-footer-logos clearfix">
+
+      
+  <div class="row">
+    <div class="col-xs-12 text-center" style="margin: 30px 0px 60px 0;">
+    <a href="https://www.mahou.es/" target="_blank"><img src="/sites/default/files/public/layout/footer/logo-footer-mahou.png" alt="Mahou"></a>    
+    <a href="http://www.marca.com/" target="_blank"><img src="/sites/default/files/public/layout/footer/logo-footer-marca.png" alt="Marca"></a>
+    <a href="https://www.hola.com/" target="_blank"><img src="/sites/default/files/public/layout/footer/logo-footer-hola.png" alt="Hola"></a>
+    <a href="https://matarromera.es/" target="_blank"><img src="/sites/default/files/public/layout/footer/logo-footer-matarromera.png" alt="Matarromera"></a>
+    <a href="http://hipodromos.org/" target="_blank"><img src="/sites/default/files/resources/logo-hipodromos.png" alt="Asociación de Hipódromos"></a>
+   <a href="https://hipodromodelazarzuela.es/" target="_blank"><img src="/sites/default/files/public/layout/footer/logo-footer-rueda.png" alt="Agenda 2030"></a>
+  
+    </div>
+</div>
+</section>
+  </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+      <div class="region region-footer">
+    <section id="block-block-1" class="block block-block block-copyright clearfix">
+
+      
+  <div class="pull-left">
+      <div class="copyright">Copyright © Hipódromo de La Zarzuela</div>
+     <div class="footer-social-links">
+        <a href="https://www.youtube.com/channel/UCh_-VSbzrOuvv7oWHkpu2GA" title="Youtube" target="_BLANK"><i class="fa fa-youtube-play"></i></a>
+        <a href="https://www.instagram.com/hipodromomadrid/?hl=es//" title="Instagram" target="_BLANK"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/HipodromoMadrid" title="Facebook" target="_BLANK"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/HipodromoMadrid" title="Twitter" target="_BLANK"><i class="fa fa-twitter"></i></a>
+    </div>
+</div>
+<div class="text-center">
+      <p>Fotos de Hipódromo de La Zarzuela, Álvaro Marcos, A Galopar, Gran Premio y Mario García</p> 
+</div>
+ <div class="pull-center">
+	<ul class="list-unstyled">
+		<li><a href="/sitemap" target="_blank"> Mapa web </a></li>
+		<li><a href="/aviso-legal"> Aviso legal </a></li>
+                <li><a href="/política-de-privacidad"> política-de-privacidad </a></li>
+		<li><a href="/condiciones-de-uso"> Condiciones de uso </a></li>
+		<li><a href="/información-corporativa"> Perfil del Contratante </a></li>
+		<li><a href="/contacte-con-nosotros"> Contacto </a></li>
+	</ul>
+</div>
+
+
+</section>
+  </div>
+    </div>
+</footer>
+<div class="modal fade" id="euro_estado_de_la_pista" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header btn-primary" style="color:white!important;">
+                <h5 class="modal-title" id="exampleModalCenterTitle" style="float: left;">ESTADO DE LA PISTA</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+            <div class="view view-estado-de-la-pista view-id-estado_de_la_pista view-display-id-block view-dom-id-6fed8cb28767895f01a674909fd4f49a">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <p>Previsión ESTADO de la <strong>PISTA DE HIERBA </strong>PARA LA JORNADA DEL <strong>VIERNES 9 de OCTUBRE </strong>en el HIPÓDROMO DE LA ZARZUELA</p>
+<p><strong>3.2&nbsp;BUENA</strong></p>
+<p>Lluvias: sin lluvias previstas en la semana.</p>
+<p>Riegos: diarios.&nbsp;</p>
+<p>Posición del raíl: <strong>INTERMEDIA (2º)</strong> (Primera de cuatro jornadas).</p>
+<p>Temperatura prevista 15:00h&nbsp;25º&nbsp;con sol y agradable, viento 7 km/h.</p>
+<p>Previsión ESTADO de la <strong>PISTA DE FIBRA&nbsp;</strong>PARA LA JORNADA DEL <strong>VIERNES 9 de OCTUBRE </strong>en el HIPÓDROMO DE LA ZARZUELA</p>
+<p><strong>PSF ESTÁNDAR- BUENA</strong></p>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>            </div>
+            <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="retirados_de_la_jornada" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header btn-primary" style="color:white!important;">
+                <h5 class="modal-title" id="exampleModalCenterTitle" style="float: left;">RETIRADOS PROXIMA JORNADA</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+            <style>span.date-display-single{display:none!important;}</style>
+            <div class="view view-noticias view-id-noticias view-display-id-block_1 view-dom-id-c1562a4e3b7cfffb30277b4d5688a00e">
+        
+  
+  
+      <div class="view-content">
+          <ul class="list-unstyled">          <li class="views-row views-row-1 views-row-odd views-row-first views-row-last">  
+           <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2020-02-25T10:45:00+01:00">25/02/2020</span>    
+          <a href="/noticias-y-prensa/notas-de-prensa/retirados-09102020"><h4>RETIRADOS 09.10.2020</h4></a>    
+            </li>
+      </ul>    </div>
+  
+  
+  
+  
+  
+  
+</div>            </div>
+            <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button></div>
+        </div>
+    </div>
+</div>
+  <script src="https://www.hipodromodelazarzuela.es/sites/all/modules/_a_hz_modulo/hz_dw_ges/js/select2.min.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/_a_hz_modulo/hz_dw_ges/js/jquery.mask.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/_a_hz_modulo/hz_dw_ges/js/euro_sis_custom.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/_a_hz_eurosis_formularios/js/select2.min1.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/_a_hz_eurosis_formularios/js/jquery.mask.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/_a_hz_eurosis_formularios/js/jquery.dataTables.min.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/_a_hz_eurosis_formularios/js/euro_sis_custom1.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/_a_hz_modulo_master/bootstrap/js/select2.min.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/_a_hz_modulo_master/js/hz_modulo_master.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/modules/eu_cookie_compliance/js/eu_cookie_compliance.js?qhqd0l"></script>
+<script src="https://www.hipodromodelazarzuela.es/sites/all/themes/bootstrap/js/bootstrap.js?qhqd0l"></script>
+  
+
+
+<div id="screenleapDiv" style="position:fixed;right:1px;bottom:1px;visibility:hidden;width:1px;height:1px" installed="true" sharing="false" eventlisteneradded="true"></div></body></html>
