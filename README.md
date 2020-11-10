@@ -14,3 +14,11 @@ Planned next steps:
 * Find more information about the trainer/owner of the horse and substitute that info for their name in the tables.
 * Map weather to each of the races
 
+**Update!**
+I found an example that gives some hints on how to solve the problems stated earlier. 
+It seems that by treating all horses from the same race as one observation and running a neural network you are accounting for the fact
+that only other horses from the same race influence your current performance. See [here](https://towardsdatascience.com/use-machine-learning-to-predict-horse-racing-4f1111fb6ced) 
+for more explanation.
+
+I will be trying this out after I add some new features and trying to look for more information about the trainers and jockeys. Also, I am thinking that I need
+to figure out a way to prevent overfitting...
